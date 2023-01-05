@@ -1,0 +1,124 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  /* width: 90%; */
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-top: -2%;
+}
+
+.containerTarefas{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-top: 2%;
+}
+
+.boxTarefas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarefas{
+  color:var(--blue) ;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.tarefasNumero{
+  margin-left: 5px;
+  background-color: var(--gray-300);
+  color: white;
+  font-size: 12px;
+  border-radius: 30%;
+  padding: 2px
+}
+
+.concluidasNumero{
+  margin-left: 5px;
+  background-color: var(--gray-300);
+  color: white;
+  font-size: 12px;
+  border-radius:10%;
+  padding: 3px;
+}
+
+.boxConcluidas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.concluidas{
+  color:var(--purple) ;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-self: flex-end;
+}
+
+.containerTarefa {
+  width: 100%;
+  max-width: 59%;
+  margin-top: 2%;
+}
+
+.inputs{
+  width: 46rem;
+  height: 44px;
+
+  border: none;
+  background-color: var(--gray-400);
+  padding: 10px;
+  border-radius: 5px;
+  transition: border 0.3s;
+}
+
+.inputs:focus{
+  color: var(--gray-200);
+  border: 1px solid var(--blue-dark);
+  transition: border 0.3s;
+}
+
+.plus{
+  margin-left: 5px;
+}
+
+.buttons {
+  border: none;
+  padding: 10px;
+  margin-top: -0.2rem;
+  margin-left: 1%;
+  border-radius: 5px;
+  background-color: var(--blue-dark);
+  color: white;
+  transition: opacity 0.1s;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+    width: 10%;
+}
+
+.buttons:hover{
+  opacity: 0.8;
+  transition: opacity 0.1s;
+  cursor: pointer;
+}
+
+.containers{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: -1rem;
+}

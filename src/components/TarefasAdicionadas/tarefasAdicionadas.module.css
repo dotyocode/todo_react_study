@@ -1,0 +1,49 @@
+.tarefas{
+  background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.checkboxRound {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: none;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid var(--gray-300);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkboxRound:checked {
+    background-color: var(--purple);
+}
+
+.checkBoxContainer{
+  margin-right: 2%;  
+}
+
+.textContainer{
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 2%;
+  color: white;
+}
+
+.trash{
+  filter: invert(79%) sepia(50%) saturate(1%) hue-rotate(314deg) brightness(103%) contrast(88%);
+  transition: filter 0.2;
+}
+
+.trash:hover{
+  opacity: 0.8;
+  filter: invert(58%) sepia(10%) saturate(5657%) hue-rotate(322deg) brightness(92%) contrast(91%);
+  transition: filter 0.2;
+}
